@@ -2,7 +2,6 @@
 <template>
 	<main class="ds-main">
 		<section class="ds-banner">
-			<img class="ds-banner-img" src="https://assets-prd.ignimgs.com/2022/02/23/darksouls-1645649648572.jpg" alt="Dark Souls Banner" />
 			<div class="ds-banner-text">
 				<h1>Dark Souls Saga</h1>
 				<p>"Prepárate para morir"</p>

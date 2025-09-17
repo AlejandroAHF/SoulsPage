@@ -1,10 +1,11 @@
 <template>
+  <PieDePagina></PieDePagina>
   <encabezadoPagina></encabezadoPagina>
   <BodyDarkSouls></BodyDarkSouls>
 </template>
 
 <script>
-
+import PieDePagina from './components/pieDePagina.vue';
 import encabezadoPagina from './components/encabezadoPagina.vue';
 import BodyDarkSouls from './components/Body.vue';
 
@@ -12,7 +13,8 @@ export default {
   name: 'App',
   components: {
     encabezadoPagina,
-    BodyDarkSouls
+    BodyDarkSouls,
+    PieDePagina,
   }
 }
 </script>
