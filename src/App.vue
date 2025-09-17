@@ -1,20 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <encabezadoPagina></encabezadoPagina>
+  <BodyDarkSouls></BodyDarkSouls>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import encabezadoPagina from './components/encabezadoPagina.vue';
+import BodyDarkSouls from './components/Body.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    encabezadoPagina,
+    BodyDarkSouls
   }
 }
 </script>
 
 <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
