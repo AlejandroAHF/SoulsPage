@@ -1,7 +1,7 @@
 <template>
-  <PieDePagina></PieDePagina>
   <encabezadoPagina></encabezadoPagina>
   <BodyDarkSouls></BodyDarkSouls>
+  <PieDePagina></PieDePagina>
 </template>
 
 <script>
@@ -14,7 +14,7 @@ export default {
   components: {
     encabezadoPagina,
     BodyDarkSouls,
-    PieDePagina,
+    PieDePagina
   }
 }
 </script>
